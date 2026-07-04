@@ -1,0 +1,2 @@
+model_id,preprocessing_mode,num_epochs,patience,batch_size,optimizer_name,learning_rate,weight_decay,model_dropout,custom_head_hidden_dim,use_frozen_backbone,selection_metric,loss_name,use_augmentation,report_note
+B2-4,green_clahe_bgsub_mask,60,12,4,adam,5e-05,0.0001,0.2,256,False,macro_f1,cross_entropy,False,"Original B2-4 configuration: CE, no augmentation, full fine-tuning."

@@ -1,0 +1,10 @@
+run_id,model,preprocessing,checkpoint_path,val_accuracy,val_macro_f1,val_kappa
+B2-4,efficientnet_b2,none,/kaggle/input/notebooks/paulconrad21/efficientnet-b2-eyes-v4-b2-1-b2-4-targeted-matrix/b2_4_best_efficientnet_b2.pth,0.7108433734939759,0.5767295172345012,0.8106103822019395
+B2-5,efficientnet_b2,none,/kaggle/input/notebooks/paulconrad21/efficientnet-b2-eyes-v5-final-two-cpu-friendly-run/b2_5_best_efficientnet_b2.pth,0.7228915662650602,0.6575091575091575,0.822617452095483
+B2-6,efficientnet_b2,none,/kaggle/input/notebooks/paulconrad21/efficientnet-b2-eyes-v5-final-two-cpu-friendly-run/b2_6_best_efficientnet_b2.pth,0.6867469879518072,0.6290502070393375,0.7940308517773307
+R7,resnet18,crop_graham,/kaggle/input/notebooks/paulconrad21/resnet-eyes-v7-r1-r7-experiment-matrix/r7_best_resnet18.pth,0.7108433734939759,0.6145262145262145,0.8383730756512474
+B0-7,efficientnet_b0,crop_graham,/kaggle/input/notebooks/paulconrad21/efficientnet-b0-eyes-v2-r1-r7-experiment-matrix/b0_7_best_efficientnet_b0.pth,0.6385542168674698,0.5752058111380145,0.7883044394337042
+B0-6,efficientnet_b0,crop_graham,/kaggle/input/notebooks/paulconrad21/efficientnet-b0-eyes-v2-r1-r7-experiment-matrix/b0_6_best_efficientnet_b0.pth,0.6746987951807228,0.5854161958568739,0.7534653465346535
+B2-4-GGC,efficientnet_b2,gray_gamma_clahe,/kaggle/input/notebooks/paulconrad21/efficientnet-b2-partner-preprocessing-screen-confi/confirm_b2-4_gray_gamma_clahe_best_efficientnet_b2.pth,0.6867469879518072,0.5918407128933445,0.8091549046658884
+B2-6-GGC,efficientnet_b2,gray_gamma_clahe,/kaggle/input/notebooks/paulconrad21/efficientnet-b2-partner-preprocessing-screen-confi/confirm_b2-6_gray_gamma_clahe_best_efficientnet_b2.pth,0.6506024096385542,0.5990338164251208,0.7694049048190705
+B2-4-GCBM,efficientnet_b2,green_clahe_bgsub_mask,/kaggle/input/notebooks/paulconrad21/efficientnet-b2-b2-4-green-clahe-bgsub-full/confirm_b2-4_green_clahe_bgsub_mask_best_efficientnet_b2.pth,0.7228915662650602,0.6151515151515152,0.8357263665479147
