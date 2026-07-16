@@ -19,8 +19,6 @@ project-1-idrid-dr-grading/
   results/
     experiment_results/   CSV summaries for individual model runs
     ensembles/            CSV summaries for ensemble experiments
-  report/
-    project_1_report_conrad.pdf
 ```
 
 ## Main Notebooks
