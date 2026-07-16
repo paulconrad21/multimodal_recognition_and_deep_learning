@@ -6,7 +6,7 @@ The experiments include convolutional neural networks, a Vision Transformer, pre
 
 ## Dataset
 
-The experiments use the IDRiD diabetic retinopathy grading dataset. The dataset itself is not included in this repository because it is provided externally and can be large. The notebooks were mainly executed on Kaggle and expect the dataset to be available through Kaggle input paths.
+The experiments use the IDRiD diabetic retinopathy grading dataset. The dataset itself is not included in this repository. The notebooks were mainly executed on Kaggle and expect the dataset to be available through Kaggle input paths.
 
 ## Repository Structure
 
